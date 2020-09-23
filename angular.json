@@ -25,9 +25,11 @@
               "src/images"
             ],
             "styles": [
-              "src/BasicStyle.css"
+              "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/indexjs.js"
+            ]
           },
           "configurations": {
             "production": {
