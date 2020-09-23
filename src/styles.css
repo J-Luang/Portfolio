@@ -9,9 +9,35 @@
     padding: 3rem 10rem;
 }
 
+.footer-container{
+    position: absolute;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
 html{
     background-color: #111111;
     color: #111111;
     font-family: monospace;
     text-rendering: optimizeLegibility;
+}
+
+.info-container{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    padding-top: 2rem;
+}
+
+.info-description{
+    padding-left: 12rem;
+}
+
+.info-description > p{
+    font-size: 32px;
 }

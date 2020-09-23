@@ -10,15 +10,17 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     AboutComponent,
       HomeComponent,
       NavComponent,
       ProjectComponent,
-      ContactComponent
+      ContactComponent,
+      FooterComponent
    ],
   imports: [
     BrowserModule,

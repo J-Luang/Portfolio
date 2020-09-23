@@ -15,37 +15,28 @@
                 <button (click)="toInfo()">Get Started!</button>
             </div>
         </div>
-        <div id="info" class="info-container">
-            <div class="info-banner">
-                <div class="info-description">
-                    <h1>Short Introduction</h1>
-                    <h2>FullStack Developer</h2>
+    </div>
+    <div id="info" class="info-container">
+        <div class="info-banner">
+            <div class="info-description">
+                <h1>Short Introduction</h1>
+                <h2>FullStack Developer</h2>
+            <br>
+                <P>
+                    With a Bachelor of Arts in Computer Information Systems<br>
+                    Learning & solving problems is a big part of my life and part of the enjoyment<br>
                 <br>
-                    <P>
-                        With a Bachelor of Arts in Computer Information Systems<br>
-                        Learning & solving problems is a big part of my life and part of the enjoyment<br>
-                    <br>
-                        Front-end Skill: HTML, CSS, JavaScript, JQuery<br>
-                        Experience using: Angular & Nodejs<br>
-                    <br>
-                        Back-end Skills: .Net, Java, SQL<br>
-                        Experience using: .Net Core, Spring Framework, ETL, JSON, REST, ASP.NET, Visual Studio<br>
-                    </P>
-                    <br>
-                    <h1><a href="about.html">More Info</a></h1>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="footer-container">
-            <div class="footer-banner">
-                <div class="footer">
-                    <h2>Designed By Jesse Luangaphayvong</h2>
-                </div>
+                    Front-end Skill: HTML, CSS, JavaScript, JQuery<br>
+                    Experience using: Angular & Nodejs<br>
+                <br>
+                    Back-end Skills: .Net, Java, SQL<br>
+                    Experience using: .Net Core, Spring Framework, ETL, JSON, REST, ASP.NET, Visual Studio<br>
+                </P>
+                <br>
+                <h1 routerLinkActive="active"><a [routerLink]="['/about']">More Info</a></h1>
             </div>
         </div>
     </div>
-<script src="src/assets/js/JSSheet.js"></script>
 </body>
 </html>
 <router-outlet></router-outlet>

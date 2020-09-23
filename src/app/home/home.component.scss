@@ -19,26 +19,6 @@
     background-color: grey;
 }
 
-.footer-container{
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.info-container{
-    color: white;
-    width: 100vw;
-    height: 100vh;
-    align-content: center;
-    padding-top: 2rem; 
-}
-
-.info-description{
-    padding-left: 12rem;
-}
-
 .info-description > h1{
     font-size: 96px;
     color: #3491CB;
@@ -48,14 +28,11 @@
 }
 
 .info-description > h2{
-    font-size: 32px;
-}
-.info-description > p{
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .top-banner {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: url("../../images/eatsleep.jpg");
     background-size: cover;

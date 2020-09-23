@@ -1,3 +1,47 @@
+.coding-background >li{
+    font-size: 96px;
+    text-decoration: underline;
+    color: #52D728;
+}
+
+.coding-background>p{
+    font-size: 24px;
+}
+
 .container{
     color: white;
+}
+
+.info-description{
+    padding-right: 16rem;
+}
+.info-description> ul> li{
+    font-size: 64px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+.education > li{
+    font-size: 96px;
+    text-decoration: underline;
+    color: #E7F20D;
+}
+
+.education > h1{
+    font-size: 64px;
+}
+
+.education > ul >li{
+    font-size: 24px;
+}
+
+.hobbies >li{
+    font-size: 96px;
+    text-decoration: underline;
+    color: #3491CB;
+}
+
+.hobbies > ul >li{
+    font-size: 24px;
 }
