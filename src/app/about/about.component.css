@@ -1,3 +1,12 @@
+*{
+    list-style-type: none;
+}
+* > ul> li
+{
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
 .coding-background >li{
     font-size: 96px;
     text-decoration: underline;
@@ -14,15 +23,12 @@
 
 .info-description{
     padding-right: 16rem;
-}
-.info-description> ul> li{
-    font-size: 64px;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    text-decoration: underline;
+    text-align: center;
 }
 
+
 .education > li{
+
     font-size: 96px;
     text-decoration: underline;
     color: #E7F20D;
@@ -32,16 +38,10 @@
     font-size: 64px;
 }
 
-.education > ul >li{
-    font-size: 24px;
-}
-
 .hobbies >li{
     font-size: 96px;
     text-decoration: underline;
     color: #3491CB;
 }
 
-.hobbies > ul >li{
-    font-size: 24px;
-}
+
